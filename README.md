@@ -1,8 +1,6 @@
-# Sentiment Analysis Application using BERT model
+# Sentiment Analysis Application using IBM Watson NLP Library
 
 ## Introduction
-
-This repository is dedicated to creating a sentiment analysis application powered by the BERT model. Combining the strengths of Python, HTML, and JavaScript, it offers a seamless integration of natural language processing with a user-friendly interface. This project serves as a practical demonstration of modern sentiment analysis techniques in action.
 
 ## Table of Contents
 
@@ -22,17 +20,17 @@ This repository is dedicated to creating a sentiment analysis application powere
 ## Project Structure
 
 ```
-Sentiment-Analysis-App/
-├── SentimentAnalysis/
+Emotion-Detection-App/
+├── EmotionDetection/
 │   ├── __init__.py
-│   └── sentiment_analysis.py
+│   └── emotion_detection.py
 ├── .gitignore
 ├── static/
 │   └── script.js
 ├── templates/
 │   └── index.html
 ├── app.py
-├── test_sentiment_analysis.py
+├── test_emotion_detection.py
 ├── requirements.txt
 ├── LICENSE
 └── README.md
@@ -40,7 +38,7 @@ Sentiment-Analysis-App/
 
 ## Features
 
-- Sentiment Analysis Application using BERT model from IBM Watson NLP Library
+- Emotion Detection Application using BERT model from IBM Watson NLP Library
 - Deploy with Flask
 - Basic routing
 - Basic HTML, JavaScript and Bootstrap
@@ -52,7 +50,7 @@ To run this project on IBM Cloud IDE, open the Terminal and follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/arthurtran04/Sentiment-Analysis-App.git
+    git clone https://github.com/arthurtran04/Emotion-Detection-App.git
     ```
 
 2. Install the required dependencies:
@@ -63,10 +61,10 @@ To run this project on IBM Cloud IDE, open the Terminal and follow these steps:
 
 ## Usage
 
-To start the Flask application, run the `cd` command to change the directory to `Sentiment-Analysis-App` and run the `app.py` file:
+To start the Flask application, run the `cd` command to change the directory to `Emotion-Detection-App` and run the `app.py` file:
 
    ```bash
-   cd ./Sentiment-Analysis-App
+   cd ./Emotion-Detection-App
    python3.11 app.py
    ```
 In the Skills Network Toolkit, launch your application at the port `5000`:

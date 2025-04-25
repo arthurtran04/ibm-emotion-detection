@@ -1,4 +1,4 @@
-let RunSentimentAnalysis = ()=>{
+let RunEmotionDetection = ()=>{
     textToAnalyze = document.getElementById("textToAnalyze").value;
 
     let xhttp = new XMLHttpRequest();

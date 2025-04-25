@@ -69,33 +69,37 @@ To start the Flask application, run the `cd` command to change the directory to 
    ```
 In the Skills Network Toolkit, launch your application at the port `5000`:
 
-<img width="600rem" alt="Terminal" src="https://github.com/user-attachments/assets/8e3a47e2-82a6-4583-9de4-71e440fce7c7" />
+<img width="600rem" alt="Terminal" src="https://github.com/user-attachments/assets/bfbb25a3-ebb1-4004-bdcb-037403976a00" />
 
 The UI:
 
-<img width="600rem" alt="Webpage" src="https://github.com/user-attachments/assets/c3c409cf-53c0-49d8-8219-a735dcdefb8e" />
+<img width="600rem" alt="Webpage" src="https://github.com/user-attachments/assets/a74776a8-5451-42b5-bbf7-093db1f490b2" />
 
-When you enter a text in the textbox, the webpage will display the sentiment analysis results including **POSITIVE**, **NEGATIVE** and **NEUTRAL**,</br>
-they're attached with a score ranging from -1 to 1, representing the level of sentiment:
-- score = -1 -> NEGATIVE
-- score = 0 -> NEUTRAL
-- score = 1 -> POSITIVE
+When you enter a text in the textbox, the webpage will display the emotion detection results including:
+
+- **Joy**
+- **Anger**
+- **Disgust**
+- **Sadness**
+- **Fear**
+
+they're attached with a score ranging from 0 to 1, represents the probability of each emotion. An emotion with the highest score will be the dominant emotion.
 
 1. Joy:</br>
-    <img width="600rem" alt="Joy" src="https://github.com/user-attachments/assets/65b785a4-9dd4-4f2e-8f2f-5532ce798891" />
+    <img width="600rem" alt="Webpage" src="https://github.com/user-attachments/assets/a74776a8-5451-42b5-bbf7-093db1f490b2" />
 2. Anger:</br>
-    <img width="600rem" alt="Anger" src="https://github.com/user-attachments/assets/28ebf4d3-6bff-4bd3-9240-a7f839fc6e01" />
+    <img width="600rem" alt="Anger" src="https://github.com/user-attachments/assets/dac87915-e083-4cf8-a45a-fe853de48aa2" />
 3. Disgust:</br>
-    <img width="600rem" alt="Disgust" src="https://github.com/user-attachments/assets/7a8745af-0130-447c-83aa-334b7b8fa319" />
+    <img width="600rem" alt="Disgust" src="https://github.com/user-attachments/assets/042fb3a3-957a-427d-9390-4c373fca610e" />
 4. Sadness:</br>
-    <img width="600rem" alt="Sadness" src="https://github.com/user-attachments/assets/28ebf4d3-6bff-4bd3-9240-a7f839fc6e01" />
+    <img width="600rem" alt="Sadness" src="https://github.com/user-attachments/assets/09be53ba-8ea1-47f8-ab1d-66e064d21e89" />
 5. Fear:</br>
-    <img width="600rem" alt="Fear" src="https://github.com/user-attachments/assets/7a8745af-0130-447c-83aa-334b7b8fa319" />
+    <img width="600rem" alt="Fear" src="https://github.com/user-attachments/assets/e4ed274e-c83a-437a-a2fb-fb85fa54d32a" />
 
-This model only works for English, so if you try to enter text in another language or an invalid text, the webpage will respond with **Invalid input! Try again.**
+If you try to enter text in another language or an invalid text, the webpage may respond with **Invalid input! Try again.**
 
 6. Invalid input:</br>
-    <img width="600rem" alt="INVALID INPUT" src="https://github.com/user-attachments/assets/b496ed4e-2466-438d-9a55-59122789ae21" />
+    <img width="600rem" alt="INVALID INPUT" src="https://github.com/user-attachments/assets/262e449f-aa24-4dec-b718-e8c4b2b87db1" />
 
 To stop the application, use `Ctrl + C` in the Terminal
 

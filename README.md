@@ -2,6 +2,8 @@
 
 ## Introduction
 
+This repository is home to an **Emotion Detection Application** powered by the **IBM Watson NLP Library**. With a foundation in **Python** and support from **HTML** and **JavaScript**, the project combines backend processing with an intuitive interface to detect emotions effectively. It’s a practical implementation of NLP for emotional insights.
+
 ## Table of Contents
 
 - [Introduction](#introduction)

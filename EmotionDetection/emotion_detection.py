@@ -36,7 +36,7 @@ def emotion_detector(text_to_analyze):
             'sadness': emotions.get('sadness'),
             'dominant_emotion': dominant_emotion
         }
-    else:
+    elif response.status_code == 400:
         # Return None values if the request was not successful
         return {
             'anger': None,

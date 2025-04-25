@@ -1,4 +1,4 @@
-# Sentiment Analysis Application using IBM Watson NLP Library
+# Emotion Detection Application using IBM Watson NLP Library
 
 ## Introduction
 
@@ -81,16 +81,20 @@ they're attached with a score ranging from -1 to 1, representing the level of se
 - score = 0 -> NEUTRAL
 - score = 1 -> POSITIVE
 
-1. POSITIVE:</br>
-    <img width="600rem" alt="POSITIVE" src="https://github.com/user-attachments/assets/65b785a4-9dd4-4f2e-8f2f-5532ce798891" />
-2. NEGATIVE:</br>
-    <img width="600rem" alt="NEGATIVE" src="https://github.com/user-attachments/assets/28ebf4d3-6bff-4bd3-9240-a7f839fc6e01" />
-3. NEUTRAL:</br>
-    <img width="600rem" alt="NEUTRAL" src="https://github.com/user-attachments/assets/7a8745af-0130-447c-83aa-334b7b8fa319" />
+1. Joy:</br>
+    <img width="600rem" alt="Joy" src="https://github.com/user-attachments/assets/65b785a4-9dd4-4f2e-8f2f-5532ce798891" />
+2. Anger:</br>
+    <img width="600rem" alt="Anger" src="https://github.com/user-attachments/assets/28ebf4d3-6bff-4bd3-9240-a7f839fc6e01" />
+3. Disgust:</br>
+    <img width="600rem" alt="Disgust" src="https://github.com/user-attachments/assets/7a8745af-0130-447c-83aa-334b7b8fa319" />
+4. Sadness:</br>
+    <img width="600rem" alt="Sadness" src="https://github.com/user-attachments/assets/28ebf4d3-6bff-4bd3-9240-a7f839fc6e01" />
+5. Fear:</br>
+    <img width="600rem" alt="Fear" src="https://github.com/user-attachments/assets/7a8745af-0130-447c-83aa-334b7b8fa319" />
 
 This model only works for English, so if you try to enter text in another language or an invalid text, the webpage will respond with **Invalid input! Try again.**
 
-4. Invalid input:</br>
+6. Invalid input:</br>
     <img width="600rem" alt="INVALID INPUT" src="https://github.com/user-attachments/assets/b496ed4e-2466-438d-9a55-59122789ae21" />
 
 To stop the application, use `Ctrl + C` in the Terminal

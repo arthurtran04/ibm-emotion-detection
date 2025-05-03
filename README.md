@@ -41,9 +41,9 @@ Emotion-Detection-App/
 ## Features
 
 - Emotion Detection Application using BERT model from IBM Watson NLP Library
-- Deploy with Flask
-- Basic routing
+- Using Flask for back-end development
 - Basic HTML, JavaScript and Bootstrap
+- Using Pylint for code analysis
 
 ## Installation
 

@@ -22,7 +22,7 @@ This repository is home to an **Emotion Detection Application** powered by the *
 ## Project Structure
 
 ```
-Emotion-Detection/
+ibm-emotion-detection/
 ├── EmotionDetection/
 │   ├── __init__.py
 │   └── emotion_detection.py
@@ -52,7 +52,7 @@ To run this project on IBM Cloud IDE, open the Terminal and follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/arthurtran04/Emotion-Detection.git
+    git clone https://github.com/arthurtran04/ibm-emotion-detection.git
     ```
 
 2. Install the required dependencies:
@@ -63,10 +63,10 @@ To run this project on IBM Cloud IDE, open the Terminal and follow these steps:
 
 ## Usage
 
-To start the Flask application, run the `cd` command to change the directory to `Emotion-Detection` and run the `app.py` file:
+To start the Flask application, run the `cd` command to change the directory to `ibm-emotion-detection` and run the `app.py` file:
 
    ```bash
-   cd ./Emotion-Detection
+   cd ./ibm-emotion-detection
    python3.11 app.py
    ```
 In the Skills Network Toolkit, launch your application at the port `5000`:

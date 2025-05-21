@@ -51,22 +51,22 @@ To run this project on IBM Cloud IDE, open the Terminal and follow these steps:
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/arthurtran04/ibm-emotion-detection.git
+    ```sh
+    $ git clone https://github.com/arthurtran04/ibm-emotion-detection.git
     ```
 
 2. Install the required dependencies:
 
-    ```bash
-    pip install -r requirements.txt
+    ```sh
+    $ pip install -r requirements.txt
     ```
 
 ## Usage
 
 To start the Flask application, run the `cd` command to change the directory to `ibm-emotion-detection` and run the `app.py` file:
 
-   ```bash
-   cd ./ibm-emotion-detection
+   ```sh
+   $ cd ./ibm-emotion-detection
    python3.11 app.py
    ```
 In the Skills Network Toolkit, launch your application at the port `5000`:

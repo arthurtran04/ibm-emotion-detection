@@ -1,8 +1,8 @@
-# Emotion Detection Application using IBM Watson NLP Library
+# Emotion Detection
 
 ## Introduction
 
-This repository is home to an **Emotion Detection Application** powered by the **IBM Watson NLP Library**. With a foundation in **Python** and support from **HTML** and **JavaScript**, the project combines backend processing with an intuitive interface to detect emotions effectively. It’s a practical implementation of NLP for emotional insights.
+This repository is home to an **Emotion Detection** application powered by the **IBM Watson NLP Library**. With a foundation in **Python** and support from **HTML** and **JavaScript**, the project combines backend processing with an intuitive interface to detect emotions effectively. It’s a practical implementation of NLP for emotional insights.
 
 ## Table of Contents
 
@@ -40,10 +40,7 @@ ibm-emotion-detection/
 
 ## Features
 
-- Emotion Detection Application using BERT model from IBM Watson NLP Library
-- Using Flask for back-end development
-- Basic HTML, JavaScript and Bootstrap
-- Using Pylint for code analysis
+Determines the emotion of a text entered by user.
 
 ## Installation
 
